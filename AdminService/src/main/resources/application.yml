@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/booking
+    username: postgres
+    password: Eldos2812
+  #  jpa:
+  #    hibernate:
+  #      ddl-auto: update
+  flyway:
+    schemas:
+      - public
+      - barbershop
+#booking:
+#  time:
+#    openingTime: '09:00'
+#    closingTime: '18:00'
+#    duration: '30'
+server:
+  port:
+    8082
